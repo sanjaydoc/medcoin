@@ -1,0 +1,34 @@
+src/*.exe
+src/medcoin
+src/medcoind
+src/test_medcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.medcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+medcoin-qt
+Medcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+medcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
